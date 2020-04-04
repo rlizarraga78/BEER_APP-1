@@ -63,7 +63,7 @@ public class ItemsListActivity extends AppCompatActivity {
             mTwoPane = true;
         }
 
-        View recyclerView = findViewById(R.id.items_list);
+        View recyclerView = findViewById(R.id.Brew_History);
         assert recyclerView != null;
         setupRecyclerView((RecyclerView) recyclerView);
     }

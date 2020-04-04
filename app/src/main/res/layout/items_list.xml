@@ -2,7 +2,7 @@
 <androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/items_list"
+    android:id="@+id/Brew_History"
     android:name="com.example.beer_app.ItemsListFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,4 +10,24 @@
     android:layout_marginRight="16dp"
     app:layoutManager="LinearLayoutManager"
     tools:context=".ItemsListActivity"
-    tools:listitem="@layout/items_list_content" />
+    tools:listitem="@layout/items_list" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brew1"
+        tools:text="Brew1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</androidx.recyclerview.widget.RecyclerView>
