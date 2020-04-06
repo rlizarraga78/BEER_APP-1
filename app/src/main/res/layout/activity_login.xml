@@ -16,16 +16,17 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="436dp"
         android:layout_marginEnd="24dp"
 
+        android:autofillHints=""
         android:hint="@string/prompt_email"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:layout_constraintVertical_bias="0.302" />
 
     <EditText
         android:id="@+id/password"
@@ -43,7 +44,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/username" />
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/login"
@@ -53,7 +55,6 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="48dp"
-        android:layout_marginBottom="64dp"
         android:enabled="false"
         android:text="@string/action_sign_in"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -74,36 +75,35 @@
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/password"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/password"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
+        app:layout_constraintVertical_bias="0.532" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="89dp"
+        android:layout_height="85dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="@+id/loading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/beer_launcher" />
 
     <EditText
         android:id="@+id/Title_text"
         android:layout_width="291dp"
         android:layout_height="120dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="48dp"
         android:ems="10"
         android:fontFamily="casual"
         android:inputType="textPersonName"
         android:text="HomeBrew Helper"
         android:textAlignment="center"
         android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="247dp"
-        android:layout_height="210dp"
-        android:layout_marginBottom="284dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@tools:sample/backgrounds/scenic[17]" />
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.218"
+        tools:layout_editor_absoluteX="40dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
