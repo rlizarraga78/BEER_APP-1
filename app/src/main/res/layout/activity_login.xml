@@ -11,6 +11,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".ui.login.LoginActivity">
 
+
     <EditText
         android:id="@+id/username"
         android:layout_width="0dp"
@@ -96,14 +97,15 @@
         android:layout_width="291dp"
         android:layout_height="120dp"
         android:ems="10"
-        android:fontFamily="casual"
+        android:fontFamily="monospace"
         android:inputType="textPersonName"
         android:text="HomeBrew Helper"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.218"
-        tools:layout_editor_absoluteX="40dp" />
+        app:layout_constraintVertical_bias="0.218" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

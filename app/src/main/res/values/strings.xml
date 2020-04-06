@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BEER_APP</string>
+    <string name="app_name">HomeBrew Helper</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
