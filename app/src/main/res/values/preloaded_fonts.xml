@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/bungee_inline</item>
+        <item>@font/eagle_lake</item>
+        <item>@font/fondamento</item>
+        <item>@font/inknut_antiqua_medium</item>
+        <item>@font/lobster_two_bold</item>
+        <item>@font/medievalsharp</item>
+        <item>@font/philosopher_bold</item>
+        <item>@font/quando</item>
+        <item>@font/rammetto_one</item>
+        <item>@font/uncial_antiqua</item>
+        <item>@font/unifrakturmaguntia</item>
+    </array>
+</resources>
