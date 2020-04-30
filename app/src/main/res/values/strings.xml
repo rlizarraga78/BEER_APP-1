@@ -14,4 +14,28 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="main_welcome_text">Welcome Back!</string>
+    <string name="main_updates_text">Here Are Your Updates</string>
+    <string name="main_updates">(Display updates here)</string>
+    <string name="main_create_beer">Create New Beer!</string>
+    <string name="separator">Separator</string>
+    <string name="main_current_text">Brews In The Making</string>
+    <string name="main_current_beers">(Display current beers here)</string>
+    <string name="user_profile_name">User Name</string>
+    <string name="user_profile_finished_text">Finished Brews</string>
+    <string name="user_profile_finished_beers">(Display Finished Beers)</string>
+    <string name="user_profile_info">(Display User Info)</string>
+    <string name="create_new_header">Let\'s Get Brewing!</string>
+    <string name="create_new_choice">Choose Your Brew</string>
+    <string-array name="create_new_array">
+        <item> </item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
 </resources>
