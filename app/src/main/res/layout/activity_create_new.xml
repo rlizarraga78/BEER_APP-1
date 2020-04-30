@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/barrel_background_3"
+            android:gravity="center_horizontal|top"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fondamento"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/create_new_header"
+                android:textColor="@color/Beer_Launcher_background"
+                android:textSize="40sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:contentDescription="@string/create_new_header"
+                app:srcCompat="@drawable/create_bear_image" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fondamento"
+                android:paddingTop="20dp"
+                android:text="@string/create_new_choice"
+                android:textColor="@color/Beer_Launcher_background"
+                android:textSize="40sp" />
+
+            <RelativeLayout
+                android:layout_width="298dp"
+                android:layout_height="22dp"
+                android:background="@drawable/barrel_color">
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/create_new_array"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
