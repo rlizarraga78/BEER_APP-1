@@ -1,8 +1,14 @@
 package com.example.beer_app.data;
 
+import android.content.Intent;
+
+import com.example.beer_app.MainActivity;
 import com.example.beer_app.data.model.LoggedInUser;
+import com.example.beer_app.ui.login.LoginActivity;
 
 import java.io.IOException;
+
+import static androidx.core.content.ContextCompat.startActivity;
 
 /**
  * Class that handles authentication w/ login credentials and retrieves user information.
