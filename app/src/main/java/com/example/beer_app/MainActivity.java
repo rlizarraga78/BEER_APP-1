@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     new HomeFragment()).commit();
             navigationView.setCheckedItem(R.id.nav_home);
         }
-
+/*
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
     }
 
     @Override
