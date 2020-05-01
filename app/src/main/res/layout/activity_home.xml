@@ -12,7 +12,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/barrel_background"
+            android:background="@drawable/barrel_background_2"
             android:gravity="center_horizontal"
             android:orientation="vertical">
 
@@ -50,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/separator"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/seperator" />
+                app:srcCompat="@drawable/separator" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -72,7 +72,7 @@
 
             <ImageView
                 android:id="@+id/imageView3"
-                app:srcCompat="@drawable/seperator"
+                app:srcCompat="@drawable/separator"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/separator"
