@@ -28,7 +28,7 @@
     <string name="create_new_header">Let\'s Get Brewing!</string>
     <string name="create_new_choice">Choose Your Brew</string>
     <string-array name="create_new_array">
-        <item> </item>
+        <item>Irish Red Ale </item>
         <item>Mercury</item>
         <item>Venus</item>
         <item>Earth</item>
@@ -36,6 +36,24 @@
         <item>Jupiter</item>
         <item>Saturn</item>
         <item>Uranus</item>
-        <item>Neptune</item>
     </string-array>
+    <string name="Start_Brew">Start Brewing!</string>
+    <string name="PreTutorialTitle"> Before We Start...</string>
+    <string name="TutorialTitle"> Basic HomeBrewing Tutorial</string>
+    <string name="PreTutorialHeader">Make Sure you have: </string>
+    <string name="BrewPot">3 Gallon Brew Pot(or larger)</string>
+    <string name ="Fermenter">6.5 Gallon Primary Fermenter</string>
+    <string name ="SiphonHose">Siphon hose/ Racking Cane</string>
+    <string name ="LargeSpoon">Large Spoon or Paddle</string>
+    <string name ="AirLock">Air Lock</string>
+    <string name ="Hydrometer">Hydrometer</string>
+    <string name ="Thermometer">Thermometer</string>
+    <string name ="Cleanser">Cleanser</string>
+    <string name ="Sanitizer">Sanitizer</string>
+    <string name ="Bottles">Bottles (or kegging system)</string>
+    <string name="PreTutorialReminder">Reminder - Not Included in Kit:</string>
+    <string name="Yeast">Yeast</string>
+    <string name="PrimingSugar">Priming Sugar</string>
+    <string name="BottleCaps">Bottle Caps</string>
+
 </resources>
