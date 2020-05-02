@@ -10,6 +10,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.HashMap;
+import java.util.Map;
+
+
 public class PreTutorialFragment extends Fragment {
     @Nullable
     @Override
@@ -19,6 +26,8 @@ public class PreTutorialFragment extends Fragment {
         //Button goToTutorial = (Button) findViewById(R.id.toTutorialButton);
         //Intent intent = new Intent(PreTutorialFragment.this, TutorialFragment.class);
         //startActivity(intent);
+
         //This doesn't work inside fragments and I'm not sure what needs to be changed -Devin
     }
 }
+

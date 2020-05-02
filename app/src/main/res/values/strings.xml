@@ -27,6 +27,7 @@
     <string name="user_profile_info">(Display User Info)</string>
     <string name="create_new_header">Let\'s Get Brewing!</string>
     <string name="create_new_choice">Choose Your Brew</string>
+    <!--Spinner Strings-->
     <string-array name="create_new_array">
         <item>Irish Red Ale </item>
         <item>Mercury</item>
@@ -37,6 +38,7 @@
         <item>Saturn</item>
         <item>Uranus</item>
     </string-array>
+    <!--Strings related to PreTutorial-->
     <string name="Start_Brew">Start Brewing!</string>
     <string name="PreTutorialTitle"> Before We Start...</string>
     <string name="TutorialTitle"> Basic HomeBrewing Tutorial</string>
@@ -55,5 +57,6 @@
     <string name="Yeast">Yeast</string>
     <string name="PrimingSugar">Priming Sugar</string>
     <string name="BottleCaps">Bottle Caps</string>
+    <!--Strings related to tutorial-->
 
 </resources>
