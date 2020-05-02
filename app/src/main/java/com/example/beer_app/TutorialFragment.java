@@ -13,15 +13,32 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class TutorialFragment extends Fragment {
-    int state = 0;
+    int state = 1;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.tutorial_fragment, container, false);
 
-
-
+    }
+    public void InstructionStage(int state)
+    {
+        if(state==1)
+        {
+            //display brewing instructions
+            state++;
+        }
+        else if(state ==2)
+        {
+            //display fermenting instructions
+            state++;
+        }
+        else
+        {
+            //display bottling instructions
+        }
 
     }
+
+
 
 }

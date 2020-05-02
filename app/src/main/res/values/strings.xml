@@ -30,13 +30,13 @@
     <!--Spinner Strings-->
     <string-array name="create_new_array">
         <item>Irish Red Ale </item>
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
+        <item>Stone IPA</item>
+        <item>Stout</item>
+        <item>Brown Ale</item>
+        <item>Hefewiesen</item>
+        <item>Imperial Stout</item>
+        <item>Pilsner</item>
+        <item>Porter</item>
     </string-array>
     <!--Strings related to PreTutorial-->
     <string name="Start_Brew">Start Brewing!</string>
@@ -58,5 +58,12 @@
     <string name="PrimingSugar">Priming Sugar</string>
     <string name="BottleCaps">Bottle Caps</string>
     <!--Strings related to tutorial-->
+    <string name="Finish">Finish</string>
+    <string name="Step1">Step 1</string>
+    <!-- placeholder for server text-->
+    <string name="InsStep1">Sanitize Equipment</string>
 
+    <!--Strings related to Reminders-->
+    <string name="Default_Reminder_Text">You have no beer reminders</string>
+    <string name="Reminder_Text">Your beer:____ will be ready for [stage 2,3] in [x] days </string>
 </resources>
