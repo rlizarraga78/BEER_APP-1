@@ -41,4 +41,21 @@
     <string name="Step1">Step 1</string>
     <string name="InsStep1">Sanitize equipement</string>
     <string name="Finish">Finish</string>
+    <string name="Start_Brew">Start Brewing!</string>
+    <string name="BottleCaps">Bottle caps</string>
+    <string name="PrimingSugar">Priming sugar</string>
+    <string name="Yeast">Yeast</string>
+    <string name="PreTutorialReminder">Reminder: These are not included</string>
+    <string name="Bottles">Bottles</string>
+    <string name="Sanitizer">Sanitizer</string>
+    <string name="Cleanser">Cleanser</string>
+    <string name="Thermometer">Thermometer</string>
+    <string name="Hydrometer">Hydrometer</string>
+    <string name="AirLock">Airlock</string>
+    <string name="LargeSpoon">Large Spoon</string>
+    <string name="SiphonHose">Siphon Hose</string>
+    <string name="Fermenter">Fermenter</string>
+    <string name="BrewPot">Brew Pot</string>
+    <string name="PreTutorialHeader">Make Sure you have</string>
+    <string name="PreTutorialTitle">Before we start...</string>
 </resources>
