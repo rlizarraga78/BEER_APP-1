@@ -3,16 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="190dp"
     android:background="@drawable/barrel_background"
-    android:gravity="bottom"
-    android:orientation="vertical"
+    android:gravity="center"
     android:padding="20dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingBottom="38dp"
         android:src="@mipmap/beer_launcher_3" />
 
+    <TextView
+        android:id="@+id/navUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fondamento"
+        android:paddingLeft="20dp"
+        android:text="@string/nav_user_name"
+        android:textColor="@color/Beer_Launcher_background"
+        android:textSize="40sp" />
 </LinearLayout>
 

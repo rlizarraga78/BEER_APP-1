@@ -32,17 +32,18 @@
                 android:visibility="visible" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button_create_home"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/barrel_color"
+                android:enabled="true"
                 android:fontFamily="@font/fondamento"
                 android:shadowColor="@color/colorPrimaryDark"
                 android:shadowDx="20"
                 android:shadowDy="20"
                 android:text="@string/main_create_beer"
                 android:textColor="@color/Beer_Launcher_background"
-                android:textSize="20sp" />
+                android:textSize="22sp" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -50,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/separator"
                 android:paddingTop="20dp"
-                app:srcCompat="@drawable/seperator" />
+                app:srcCompat="@drawable/separator" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -67,12 +68,15 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/fondamento"
                 android:text="@string/main_updates"
-                android:textSize="40sp" />
+                android:textAlignment="center"
+                android:textColor="@color/Beer_Launcher_background"
+                android:textSize="33sp" />
 
             <ImageView
                 android:id="@+id/imageView3"
-                app:srcCompat="@drawable/seperator"
+                app:srcCompat="@drawable/separator"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/separator"
@@ -93,7 +97,10 @@
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/fondamento"
                 android:text="@string/main_current_beers"
+                android:textAlignment="center"
+                android:textColor="@color/Beer_Launcher_background"
                 android:textSize="33sp" />
 
         </LinearLayout>

@@ -1,11 +1,16 @@
 <resources>
     <string name="app_name">HomeBrew Helper</string>
     <!-- Strings related to login -->
+    <string name="prompt_username">Name</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
+    <string name="prompt_age">I am 21 years old or older</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="action_sign_up_header">Sign Up And Get Brewing!</string>
+    <string name="action_register">Don\'t have an account? Sign up here!</string>
+    <string name="action_sign_up_already">Already have an account? Sign up here!</string>
+    <string name="welcome">"Welcome!"</string>
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
@@ -29,13 +34,7 @@
     <string name="create_new_choice">Choose Your Brew</string>
     <string-array name="create_new_array">
         <item> </item>
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
+        <item>Beer 1</item>
     </string-array>
+    <string name="nav_user_name">User Name</string>
 </resources>
