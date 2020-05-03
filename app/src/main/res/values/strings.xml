@@ -32,14 +32,15 @@
     <string name="user_profile_info">(Display User Info)</string>
     <string name="create_new_header">Let\'s Get Brewing!</string>
     <string name="create_new_choice">Choose Your Brew</string>
+    <!--Spinner-->
     <string-array name="create_new_array">
         <item> </item>
-        <item>Beer 1</item>
+        <item>Irish Red Ale</item>
     </string-array>
+    <!--Tutorial Strings-->
     <string name="nav_user_name">User Name</string>
     <string name="TutorialTitle">Beer Brewing Tutorial</string>
-    <string name="Step1">Step 1</string>
-    <string name="InsStep1">Sanitize equipement</string>
+    <string name="Instructions"></string>
     <string name="Finish">Finish</string>
     <string name="Start_Brew">Start Brewing!</string>
     <string name="BottleCaps">Bottle caps</string>

@@ -24,6 +24,7 @@ public class TutorialFragment extends Fragment {
     {
         if(state==1)
         {
+            
             //display brewing instructions
             state++;
         }

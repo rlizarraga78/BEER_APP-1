@@ -37,26 +37,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/Step1"
-                android:textAlignment="center"
-                android:textSize="36sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView18"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/InsStep1"
-                android:textAlignment="textStart"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-        </LinearLayout>
+            android:orientation="vertical"/>
     </ScrollView>
 
     <Button
