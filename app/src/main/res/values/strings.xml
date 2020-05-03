@@ -37,4 +37,8 @@
         <item>Beer 1</item>
     </string-array>
     <string name="nav_user_name">User Name</string>
+    <string name="TutorialTitle">Beer Brewing Tutorial</string>
+    <string name="Step1">Step 1</string>
+    <string name="InsStep1">Sanitize equipement</string>
+    <string name="Finish">Finish</string>
 </resources>
