@@ -42,11 +42,11 @@
     <string name="nav_user_name">User Name</string>
     <string name="TutorialTitle">Beer Brewing Tutorial</string>
     <string name="Instructions"></string>
-    <string name="Finish">Finish</string>
+    <string name="Finish">Done</string>
     <string name="Start_Brew">Start Brewing!</string>
     <string name="BottleCaps">Bottle caps</string>
     <string name="PrimingSugar">Priming sugar</string>
-    <string name="Yeast">Yeast</string>
+    <string name="Yeast">Yeast, Irish Moss</string>
     <string name="PreTutorialReminder">Reminder: These are not included</string>
     <string name="Bottles">Bottles</string>
     <string name="Sanitizer">Sanitizer</string>
@@ -60,4 +60,9 @@
     <string name="BrewPot">Brew Pot</string>
     <string name="PreTutorialHeader">Make Sure you have</string>
     <string name="PreTutorialTitle">Before we start...</string>
+    <string name="toFermentingTutorial">Go To Fermenting Phase</string>
+    <string name="toBottlingTutorial">Go To Bottling Phase</string>
+    <string name="Fermenting_Tutorial">Fermenting Tutorial</string>
+    <string name="Bottling_tutorial">Bottling Tutorial</string>
+    <string name="Test">TEST</string>
 </resources>

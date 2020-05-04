@@ -7,8 +7,8 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="402dp"
-        android:layout_height="618dp"
+        android:layout_width="413dp"
+        android:layout_height="633dp"
         android:background="@drawable/barrel_background_3"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
