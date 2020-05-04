@@ -38,6 +38,7 @@
         <item>Irish Red Ale</item>
     </string-array>
     <!--Tutorial Strings-->
+    <string name="Yeast_Reminder">Important!: Remember to remove Yeast from fridge for 4-8 hours before brewing</string>
     <string name="nav_user_name">User Name</string>
     <string name="TutorialTitle">Beer Brewing Tutorial</string>
     <string name="Instructions"></string>

@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PreTu"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="402dp"
+        android:layout_height="618dp"
         android:background="@drawable/barrel_background_3"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="-133dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/PreTutorialTitle"
-            android:layout_width="match_parent"
-            android:layout_height="105dp"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:text="@string/PreTutorialTitle"
             android:textAlignment="center"
@@ -26,8 +28,8 @@
 
         <TextView
             android:id="@+id/PreTutorialHeaderText"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_width="394dp"
+            android:layout_height="45dp"
             android:text="@string/PreTutorialHeader"
             android:textAlignment="center"
             android:textSize="24sp"
@@ -138,7 +140,7 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="137dp">
+            android:layout_height="wrap_content">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -184,10 +186,21 @@
             </LinearLayout>
         </ScrollView>
 
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Yeast_Reminder"
+            android:textAlignment="center"
+            android:textColor="#C6283A"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
         <Button
             android:id="@+id/toTutorialButton"
             android:layout_width="445dp"
             android:layout_height="51dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
             android:background="#FFFFFF"
             android:backgroundTint="#FFFFFF"
             android:text="@string/Start_Brew"
